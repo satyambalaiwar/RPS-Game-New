@@ -177,7 +177,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-game-darker via-game-dark to-game-primary relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-game-darker via-game-dark to-game-primary relative overflow-hidden rounded-3xl m-4 border border-white/10 shadow-2xl">
       <BackgroundParticles />
 
       <motion.header
@@ -269,6 +269,20 @@ function App() {
             <RotateCcw size={20} /> Reset Game
           </button>
         </motion.div>
+
+        {/* Signature */}
+        <motion.footer
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1, duration: 0.8 }}
+          className="text-center mt-12 mb-8"
+        >
+          <div className="inline-block bg-white/5 backdrop-blur-sm rounded-2xl px-6 py-3 border border-white/10">
+            <p className="text-sm text-gray-400 font-light">
+              Made with ❤️ by <span className="text-game-primary font-medium">Satyam Balaiwar</span>
+            </p>
+          </div>
+        </motion.footer>
       </div>
     </div>
   )
