@@ -1,0 +1,59 @@
+.font-orbitron {
+    font-family: 'Orbitron', monospace;
+}
+
+/* Custom gradient text */
+.gradient-text {
+    background: linear-gradient(45deg, #6366f1, #8b5cf6, #f59e0b);
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Glass morphism effect */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Hover effects */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Pulse animation for active elements */
+.pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+    from {
+        box-shadow: 0 0 20px rgba(99, 102, 241, 0.5);
+    }
+
+    to {
+        box-shadow: 0 0 30px rgba(99, 102, 241, 0.8);
+    }
+}
