@@ -22,7 +22,7 @@ function App() {
 
   const playSound = (type) => {
     if (!soundEnabled) return;
-    // NOTE real audio needed....................
+    // NOTE real audio needed....................;;;;;;
     const audio = new Audio('data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABgAAABkYXRhAgAAAAEA');
     audio.play().catch(() => {});
   }
