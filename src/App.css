@@ -2,7 +2,7 @@
     font-family: 'Orbitron', monospace;
 }
 
-/* Custom gradient text */
+/*gradient text */
 .gradient-text {
     background: linear-gradient(45deg, #6366f1, #8b5cf6, #f59e0b);
     background-size: 200% 200%;
@@ -26,14 +26,14 @@
     }
 }
 
-/* Glass morphism effect */
+/* Glass effect */
 .glass {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Hover effects */
+/*Hover effect */
 .hover-lift {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -57,3 +57,5 @@
         box-shadow: 0 0 30px rgba(99, 102, 241, 0.8);
     }
 }
+
+/* This took a lot of time - Satyam tired */
