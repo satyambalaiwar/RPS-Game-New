@@ -74,7 +74,7 @@ body {
     animation: particle-float 6s ease-in-out infinite;
 }
 
-/* Responsive design */
+/* design */
 @media (max-width: 768px) {
     #root {
         padding: 1rem;
