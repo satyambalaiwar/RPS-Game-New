@@ -279,7 +279,7 @@ function App() {
         >
           <div className="inline-block bg-white/5 backdrop-blur-sm rounded-2xl px-6 py-3 border border-white/10">
             <p className="text-sm text-gray-400 font-light">
-              Made with ❤️ by <span className="text-game-primary font-medium">Satyam Balaiwar</span>
+              Made with ❤️ by Satyam Balaiwar
             </p>
           </div>
         </motion.footer>
