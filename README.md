@@ -21,7 +21,7 @@ A modern, feature-rich Rock Paper Scissors game built with React, TailwindCSS, a
 - **Streak System** - Monitor your winning streaks and best performance
 - **Win Rate Analytics** - Visual progress bars and statistics
 
-### Technical Highlights
+### Technical Highlights -
 - **React 18** with modern hooks and functional components
 - **TailwindCSS** for utility-first styling with custom animations
 - **Framer Motion** for smooth, performant animations
