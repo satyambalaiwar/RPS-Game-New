@@ -4,7 +4,7 @@ A modern, feature-rich Rock Paper Scissors game built with React, TailwindCSS, a
 
 ## 🚀 Features -
 
-### Core Gameplay -
+### Core Gameplay
 - **Classic Rock Paper Scissors** with modern UI
 - **Real-time game logic** with dynamic result calculation
 - **Computer AI** with randomized choices
