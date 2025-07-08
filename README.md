@@ -10,7 +10,7 @@ A modern, feature-rich Rock Paper Scissors game built with React, TailwindCSS, a
 - **Computer AI** with randomized choices
 - **Score tracking** with detailed statistics
 
-### Advanced Features -
+### Advanced Features
 - **Responsive Design** - Works perfectly on desktop, tablet, and mobile
 - **Smooth Animations** - Powered by Framer Motion for engaging interactions
 - **Glass Morphism UI** - Modern backdrop blur effects and transparency
