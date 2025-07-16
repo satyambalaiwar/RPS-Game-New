@@ -2,7 +2,7 @@
 
 A modern, feature-rich Rock Paper Scissors game built with React, TailwindCSS, and Framer Motion. This project demonstrates advanced frontend development skills including responsive design, animations, state management, and modern UI/UX practices.
 
-## 🚀 Features -
+## 🚀 Features 
 
 ### Core Gameplay
 - **Classic Rock Paper Scissors** with modern UI
